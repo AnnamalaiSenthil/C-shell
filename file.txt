@@ -1,0 +1,15 @@
+seek -f why.txt .. 
+seek -f why.txt . 
+peek . 
+seek -d OSN 
+warp ~ 
+seek -e OSN 
+warp .. 
+seek -e OSN 
+peek . 
+warp ~ 
+warp .. 
+seek -d -e why.txt . 
+seek -d -e ABC . 
+seek -d ABC 
+seek ABC 
